@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2d3e50 !important;
+}
+
+h1 {
+	margin: 0;
+  color: #ecf0f1 !important;
+  margin-bottom: 10px;
+}
+
+.header {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-width: 360px;
+}
+
+.btn-primary {
+  background-color: #2ecd71 !important;
+  border-color: #2ecd71 !important;
+}
+
+.score {
+  color: #ecf0f1;
+}
+
+.count {
+	padding: 2px;
+	font-size: 10pt;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #23221c;
+	color: #686964;
+}
+
+.count span {
+	text-align: center;
+	font-size: 16pt;
+	display: block;
+}
+
+.content {
+	max-width: 80vh;
+}
+
+.newgame {
+	white-space: nowrap;
+	margin-right: 10px;
+	padding: 5px;
+	background: linear-gradient(to bottom, #e0e0e0, #b0b0b0);
+	cursor: pointer;
+	margin: 0;
+}
